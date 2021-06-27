@@ -39,6 +39,9 @@ span.pagetop > a {
 span.pagetop > a:visited {
   color: #7ea5bb;
 }
+span.pagetop {
+ color: #949494; 
+}
 a:link {
   color: #949494;
 }
