@@ -6,6 +6,12 @@ table {
   background-color: #262626;
 }
 
+/* wrgms - block added */
+.hnmain > tbody > tr > td {
+  background-color: #881a23;
+}
+/* -- */
+
 /* Row Formatting, works on all front page  */
 tr.athing > td {
   padding-top: 0.7rem;
@@ -18,8 +24,9 @@ tr > td.subtext {
 }
 
 tr.athing > td > a {
-  color: whitesmoke;
+  color: #ff6917; /* changed from whitesmoke to #ff6917 */
 }
+
 tr.athing > td > a:visited {
   color: #7ea5bb;
 }
@@ -39,9 +46,16 @@ span.pagetop > a {
 span.pagetop > a:visited {
   color: #7ea5bb;
 }
+
+/* wrgms - block added */
 span.pagetop {
  color: #949494; 
 }
+.title .morelink {
+  color: #ff6917;
+}
+/* -- */
+
 a:link {
   color: #949494;
 }
@@ -126,4 +140,9 @@ td > a > u {
 
 td > a:visited > u {
   color: #7ea5bb;
+}
+
+.titleline > a:link {
+    color: #ff6917; /* changed from whitesmoke to orange */
+    text-decoration: none;
 }

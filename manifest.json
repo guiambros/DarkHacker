@@ -1,11 +1,11 @@
 {
     "name": "Dark Hacker News",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Dark Mode For Hacker News",
-    "permissions": [
+    "host_permissions": [
         "https://news.ycombinator.com/*"
     ],
-    "page_action": {
+    "action": {
         "default_icon": {
             "16": "images/Dh16.png",
             "32": "images/Dh32.png",
@@ -21,9 +21,9 @@
     },
     "content_scripts": [
         {
-          "matches": ["https://news.ycombinator.com/*"], 
+          "matches": ["https://news.ycombinator.com/*"],
           "css" : ["DarkHacker.css"]
         }
-    ],    
-    "manifest_version": 2
+    ],
+    "manifest_version": 3
 }
