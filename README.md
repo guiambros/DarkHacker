@@ -1,4 +1,4 @@
-# DarkHacker
+# DarkHacker - Mighty Orange
 A chrome extension to make dark theme for Hacker News. 
 
 This is the source code for the [Chrome extension Dark Hacker - Mighty Orange](https://chrome.google.com/webstore/). 

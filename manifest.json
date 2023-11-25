@@ -1,6 +1,6 @@
 {
-    "name": "Dark Hacker News",
-    "version": "0.1.2",
+    "name": "Dark Hacker News - Mighty Orange",
+    "version": "0.1.3",
     "description": "Dark Mode For Hacker News",
     "host_permissions": [
         "https://news.ycombinator.com/*"
